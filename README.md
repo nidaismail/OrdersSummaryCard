@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./images/Screenshot.PNG)
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
