@@ -1,0 +1,117 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  height: 100vh;
+}
+.text-center {
+  text-align: center;
+}
+.text-bold {
+  font-weight: bold;
+}
+.container {
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 1rem;
+}
+
+.inner-container {
+  background-color: #f4f4f4;
+  margin: 0 auto;
+  width: 30%;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.308);
+}
+.container-img img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+.container-text {
+  padding-block: 2rem;
+}
+.container-text p {
+  font-size: 16px;
+}
+.container-text .summary {
+  padding: 2rem 2rem 0 3rem;
+}
+
+.icons {
+  margin: 1.5rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+}
+
+.floating .plain-text {
+  text-align: left;
+  width: 25%;
+}
+.floating .plain-text {
+  font-size: 1rem;
+}
+
+.floating .icon-music {
+  text-align: center;
+  width: 25%;
+}
+.floating .end-link {
+  width: 50%;
+}
+.floating .end-link a {
+  display: block;
+  padding: auto;
+  font-size: 30px;
+  
+}
+.btn {
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 7px;
+  font-weight: 700;
+  width: 390px;
+  height: 37px;
+  border: none;
+  
+}
+.main-btn {
+  color: whitesmoke;
+
+  background-color: rgb(26, 26, 179);
+  margin-bottom: 1rem;
+}
+.floating .end-link a{
+  font-size: 30px;
+}
+
+.main-btn:hover{
+  background-color: rgba(26, 26, 179, 0.685);
+  cursor:pointer;
+
+}
+a:hover{
+  text-decoration: none;
+  cursor:pointer;
+}
+@media only screen and (max-width: 375px) {
+   .icons{
+     width: fit-content;
+   }
+}
